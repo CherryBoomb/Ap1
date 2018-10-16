@@ -1,0 +1,23 @@
+body{
+	font-family: sans-serif;
+}
+
+h1{
+	background color:#d27979;
+	color:#d27979;
+	}
+h2{
+   
+	color:#d27979;
+	
+}
+ #foto{
+	width: 30%;
+	float: left;
+}
+
+#img{
+	max-width:150px;
+	max-height:150
+	border border-radius: 50%;
+

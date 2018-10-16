@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo de Divs alinhadas</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.tudo{ 
+					
+		}
+		.esquerda {			 
+			width: 30%;
+			height: 100px;
+			float: left; 
+			background-color: #666666; 
+			color: #ffffff;
+		}
+		.direita { 
+			width: 70%;
+			float: left; 
+			background-color: #aaaaaa; 
+		}
+		.unica{
+			clear: both; /* garante a posição abaixo da divs superiores (esquerda e direita),  */
+			background-color: #dddddd;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="tudo">
+	
+	<div class="esquerda">Div a Esquerda </div>
+	<div class="direita"> Div a Direita </div>
+
+	<div class="unica"> Única div ocupando todo espaço </div>
+
+	<div class="esquerda">Div Direita </div>
+	<div class="direita">Div Esquerda </div>
+
+	<div class="unica"> Única div ocupando todo espaço </div>
+
+</div>
+
+</body>
+</html>
